@@ -10,6 +10,8 @@ async def send_message(message, user_message, is_private):
         
         
 def run_discord_bot():
+    # You token value may be different. Visit discord.com/developers/applications (link in README.md) and create/navigate to your bot
+    # to find your own token value. This is a dummy value and will not work for your bot.
     TOKEN = 'MTE0ODc0MDk1ODQwMjM5MjA4NA.GlGqII.6VYTg4vAc6sh6p58b3T8IsC-K-pcVI07JZRz4I'
 
     intents = discord.Intents.default()
